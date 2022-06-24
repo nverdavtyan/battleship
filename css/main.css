@@ -1,0 +1,231 @@
+.main-container {
+    border: 0px;
+    margin: auto;
+    width: 980px;
+}
+
+.main-container h1 {
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.column {
+    box-sizing: border-box;
+    padding: 15px 5px 5px;
+    width: 350px;
+}
+
+.board {
+    box-sizing: border-box;
+    height: 600px;
+    margin: 15px;
+    overflow: hidden;
+    width: 600px;
+    /*    border-right: 1px solid black;
+      border-bottom: 1px solid black;*/
+}
+
+.main-grid,
+.mini-grid {
+    position: relative;
+    /*    border-top: 1px solid black;
+      border-left: 1px solid black;*/
+    width: 600px;
+}
+
+.main-grid div,
+.mini-grid div {
+    box-sizing: border-box;
+}
+
+.row {
+    border: 0;
+    /*    border-bottom: 1px solid black;*/
+    height: 60px;
+}
+
+.cell {
+    border: 1px solid #000000;
+    float: left;
+    height: 60px;
+    /*border: 0;*/
+    width: 60px;
+}
+
+.mini-grid {
+    margin-top: -150px;
+    transform: scale(0.5) translateX(-250px);
+}
+
+.game-info {
+    height: 115px;
+    overflow: auto;
+    text-align: center;
+    width: 100%;
+}
+
+#confirm {
+    display: none;
+    text-align: center;
+}
+
+.btn-container {
+    display: inline-block;
+}
+
+.btn-container .btn {
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100px;
+}
+
+.btn-container .confirm-ok {
+    background-color: #008000;
+}
+
+.btn-container .confirm-cancel {
+    background-color: #ff0000;
+}
+
+.fleet {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ship {
+    background-image: url("../img/battleship-target-3.gif");
+    background-size: 100% auto;
+    display: inline-block;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.ship.battleship {
+    background-position: 0 0;
+}
+
+.ship.destroyer {
+    background-position: 0 100px;
+}
+
+.ship.submarine {
+    background-position: 0 153px;
+}
+
+.ship.small-ship {
+    background-position: 0 53px;
+}
+.ship.sunk {
+    opacity: 0.1;
+}
+
+
+
+/***** 🔥  new styles css  🔥  *****/
+
+#game_modal {
+    display: flex;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    display: none;
+    left: 0;
+    outline: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.modal-dialog {
+    margin: 1.75rem auto;
+    max-width: 500px;
+    pointer-events: none;
+    position: relative;
+    text-align: center;
+    width: 300px !important;
+}
+
+.modal-content {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 265px;
+    min-width: 420px;
+    outline: 0;
+    pointer-events: auto;
+    width: 100%;
+}
+
+.modal-header {
+    background-color: #000000;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    color: #fff;
+    display: flex !important;
+    font-size: 35px;
+    font-weight: bold;
+    justify-content: center !important;
+    padding: 1rem;
+}
+.modal-body {
+    padding: 0.5rem;
+}
+
+.modal-button {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-button .btn {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    height: 60px;
+    justify-content: center;
+    line-height: 35px;
+    margin-bottom: 15px;
+    max-width: 220px;
+    width: 80%;
+}
+
+.btn-primary {
+    background: #000000 !important;
+    border-color: #000000 !important;
+    border-radius: 0.25rem;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: 0.15s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #3b3b3b !important;
+    border-color: #040135 !important;
+    color: #fff !important;
+}
+
+
+
+
