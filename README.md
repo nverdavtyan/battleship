@@ -1,3 +1,6 @@
+
+# [Live Demo](nverdavtyan-battleship.netlify.app)
+
 NOTE D'INTENTION
 ================
 
