@@ -1,5 +1,4 @@
-
-# [Live Demo](nverdavtyan-battleship.netlify.app/)
+# [Live Demo](https://nverdavtyan-battleship.netlify.app/)
 
 NOTE D'INTENTION
 ================
