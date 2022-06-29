@@ -1,5 +1,5 @@
 
-# [Live Demo](nverdavtyan-battleship.netlify.app)
+# [Live Demo](nverdavtyan-battleship.netlify.app/)
 
 NOTE D'INTENTION
 ================
